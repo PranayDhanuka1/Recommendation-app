@@ -1,0 +1,58 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+  background-color: #18191a;
+}
+
+h1 {
+  margin-bottom: 0;
+  color: white;
+}
+small {
+  color: white;
+}
+.name {
+  font-size: larger;
+  margin: 0;
+}
+
+.rating {
+  font-size: small;
+  margin: 0;
+}
+
+.booklist {
+  padding: 0;
+  list-style-type: none;
+}
+
+.booklist-item {
+  background-color: #f2f2f2;
+  background: ;
+  border-radius: 5px;
+  box-shadow: 0 0px 5px #e6dfdd;
+  margin: 15px auto;
+  width: 80vw;
+  padding: 15px;
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+}
+
+button {
+  background-color: #f2f2f2;
+  cursor: pointer;
+  margin: 5px 10px;
+  padding: 5px 10px;
+  font-size: 16px;
+  border: none;
+}
