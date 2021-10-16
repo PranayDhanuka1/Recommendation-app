@@ -24,10 +24,14 @@ small {
   font-size: larger;
   margin: 0;
 }
-
+.description {
+  color: black;
+  display: block;
+}
 .rating {
-  font-size: small;
+  font-size: 1.2rem;
   margin: 0;
+  padding-top: 1rem;
 }
 
 .booklist {
@@ -37,13 +41,11 @@ small {
 
 .booklist-item {
   background-color: #f2f2f2;
-  background: ;
   border-radius: 5px;
   box-shadow: 0 0px 5px #e6dfdd;
   margin: 15px auto;
   width: 80vw;
   padding: 15px;
-  display: flex;
   align-items: baseline;
   justify-content: space-between;
 }
